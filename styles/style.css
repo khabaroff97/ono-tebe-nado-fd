@@ -1,1 +1,50 @@
 /* место для вашего кода */
+header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding-top: 92px;
+  padding-left: 24px;
+  padding-bottom: 92px;
+  padding-right: 24px;
+}
+.header_menu {
+  display: flex;
+  justify-self: center;
+
+}
+
+.menu_links {
+  display: flex;
+  gap: 32px;
+  list-style-type: circle;
+  padding-right: 7px;
+}
+
+.link_list {
+  font-size: 18px;
+  font-weight: 400;
+  text-underline-offset: 4px;
+}
+
+.main_link_marker {
+  list-style-type: none;
+}
+
+.link_main {
+  text-decoration: none;
+}
+.header_logo {
+    width: 129.11px;
+    height: 104.65px;
+}
+.address {
+    padding-left: 184px;
+    font-size: 18px;
+    line-height: 24.3px;
+    list-style-type: none;
+    font-family: 'Raleway' sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
