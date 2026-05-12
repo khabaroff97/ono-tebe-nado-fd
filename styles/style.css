@@ -42,17 +42,17 @@ header {
 }
 
 .address {                 /* Исправил класс, чтобы его использовать  его в футере */
+  padding-left: 184px;
+}
+
+.list__address {        /* Добавил дополнительный класс для выравнивания блока */
+  list-style-type: none;
   font-size: 18px;
   line-height: 24.3px;
   font-family: 'Raleway', sans-serif;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
   font-style: normal;
-}
-
-.header__address {        /* Добавил дополнительный класс для выравнивания блока */
-padding-left: 184px;
-list-style-type: none;
 }
 
 .cover {
@@ -299,7 +299,7 @@ padding-bottom: 100px;
   gap: 140px;
 }
 
-.footer_address {   /* Добавил доп класс для выравнивания и переназначил .address */
+.alignment__address {   /* Добавил доп класс для выравнивания и переназначил .address */
   padding-left: 20px;
   justify-self: flex-start;
   list-style-type: none;
